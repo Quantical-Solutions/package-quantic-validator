@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Validation;
+namespace Quantic\Validation;
 
 use Exception;
 use Illuminate\Support\Arr;

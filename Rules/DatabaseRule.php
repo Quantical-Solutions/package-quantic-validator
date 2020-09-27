@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Validation\Rules;
+namespace Quantic\Validation\Rules;
 
 use Closure;
 use Illuminate\Database\Eloquent\Model;

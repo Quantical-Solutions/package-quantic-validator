@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Validation;
+namespace Quantic\Validation;
 
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;

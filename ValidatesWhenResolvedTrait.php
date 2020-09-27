@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Validation;
+namespace Quantic\Validation;
 
 /**
  * Provides default implementation of ValidatesWhenResolved contract.
@@ -42,7 +42,7 @@ trait ValidatesWhenResolvedTrait
     /**
      * Get the validator instance for the request.
      *
-     * @return \Illuminate\Validation\Validator
+     * @return \Quantic\Validation\Validator
      */
     protected function getValidatorInstance()
     {
@@ -62,10 +62,10 @@ trait ValidatesWhenResolvedTrait
     /**
      * Handle a failed validation attempt.
      *
-     * @param  \Illuminate\Validation\Validator  $validator
+     * @param  \Quantic\Validation\Validator  $validator
      * @return void
      *
-     * @throws \Illuminate\Validation\ValidationException
+     * @throws \Quantic\Validation\ValidationException
      */
     protected function failedValidation(Validator $validator)
     {
@@ -91,7 +91,7 @@ trait ValidatesWhenResolvedTrait
      *
      * @return void
      *
-     * @throws \Illuminate\Validation\UnauthorizedException
+     * @throws \Quantic\Validation\UnauthorizedException
      */
     protected function failedAuthorization()
     {

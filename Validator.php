@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Validation;
+namespace Quantic\Validation;
 
 use BadMethodCallException;
 use Illuminate\Contracts\Container\Container;
@@ -37,7 +37,7 @@ class Validator implements ValidatorContract
     /**
      * The Presence Verifier implementation.
      *
-     * @var \Illuminate\Validation\PresenceVerifierInterface
+     * @var \Quantic\Validation\PresenceVerifierInterface
      */
     protected $presenceVerifier;
 
@@ -444,7 +444,7 @@ class Validator implements ValidatorContract
      *
      * @return array
      *
-     * @throws \Illuminate\Validation\ValidationException
+     * @throws \Quantic\Validation\ValidationException
      */
     public function validate()
     {
@@ -461,7 +461,7 @@ class Validator implements ValidatorContract
      * @param  string  $errorBag
      * @return array
      *
-     * @throws \Illuminate\Validation\ValidationException
+     * @throws \Quantic\Validation\ValidationException
      */
     public function validateWithBag(string $errorBag)
     {
@@ -479,7 +479,7 @@ class Validator implements ValidatorContract
      *
      * @return array
      *
-     * @throws \Illuminate\Validation\ValidationException
+     * @throws \Quantic\Validation\ValidationException
      */
     public function validated()
     {
@@ -1283,7 +1283,7 @@ class Validator implements ValidatorContract
      * Get the Presence Verifier implementation.
      *
      * @param  string|null  $connection
-     * @return \Illuminate\Validation\PresenceVerifierInterface
+     * @return \Quantic\Validation\PresenceVerifierInterface
      *
      * @throws \RuntimeException
      */
@@ -1303,7 +1303,7 @@ class Validator implements ValidatorContract
     /**
      * Set the Presence Verifier implementation.
      *
-     * @param  \Illuminate\Validation\PresenceVerifierInterface  $presenceVerifier
+     * @param  \Quantic\Validation\PresenceVerifierInterface  $presenceVerifier
      * @return void
      */
     public function setPresenceVerifier(PresenceVerifierInterface $presenceVerifier)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Validation\Concerns;
+namespace Quantic\Validation\Concerns;
 
 use Closure;
 use Illuminate\Support\Arr;

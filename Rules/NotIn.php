@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Validation\Rules;
+namespace Quantic\Validation\Rules;
 
 class NotIn
 {

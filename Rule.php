@@ -1,15 +1,15 @@
 <?php
 
-namespace Illuminate\Validation;
+namespace Quantic\Validation;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Traits\Macroable;
-use Illuminate\Validation\Rules\Dimensions;
-use Illuminate\Validation\Rules\Exists;
-use Illuminate\Validation\Rules\In;
-use Illuminate\Validation\Rules\NotIn;
-use Illuminate\Validation\Rules\RequiredIf;
-use Illuminate\Validation\Rules\Unique;
+use Quantic\Validation\Rules\Dimensions;
+use Quantic\Validation\Rules\Exists;
+use Quantic\Validation\Rules\In;
+use Quantic\Validation\Rules\NotIn;
+use Quantic\Validation\Rules\RequiredIf;
+use Quantic\Validation\Rules\Unique;
 
 class Rule
 {
@@ -19,7 +19,7 @@ class Rule
      * Get a dimensions constraint builder instance.
      *
      * @param  array  $constraints
-     * @return \Illuminate\Validation\Rules\Dimensions
+     * @return \Quantic\Validation\Rules\Dimensions
      */
     public static function dimensions(array $constraints = [])
     {
@@ -31,7 +31,7 @@ class Rule
      *
      * @param  string  $table
      * @param  string  $column
-     * @return \Illuminate\Validation\Rules\Exists
+     * @return \Quantic\Validation\Rules\Exists
      */
     public static function exists($table, $column = 'NULL')
     {
@@ -42,7 +42,7 @@ class Rule
      * Get an in constraint builder instance.
      *
      * @param  \Illuminate\Contracts\Support\Arrayable|array|string  $values
-     * @return \Illuminate\Validation\Rules\In
+     * @return \Quantic\Validation\Rules\In
      */
     public static function in($values)
     {
@@ -57,7 +57,7 @@ class Rule
      * Get a not_in constraint builder instance.
      *
      * @param  \Illuminate\Contracts\Support\Arrayable|array|string  $values
-     * @return \Illuminate\Validation\Rules\NotIn
+     * @return \Quantic\Validation\Rules\NotIn
      */
     public static function notIn($values)
     {
@@ -72,7 +72,7 @@ class Rule
      * Get a required_if constraint builder instance.
      *
      * @param  callable|bool  $callback
-     * @return \Illuminate\Validation\Rules\RequiredIf
+     * @return \Quantic\Validation\Rules\RequiredIf
      */
     public static function requiredIf($callback)
     {
@@ -84,7 +84,7 @@ class Rule
      *
      * @param  string  $table
      * @param  string  $column
-     * @return \Illuminate\Validation\Rules\Unique
+     * @return \Quantic\Validation\Rules\Unique
      */
     public static function unique($table, $column = 'NULL')
     {

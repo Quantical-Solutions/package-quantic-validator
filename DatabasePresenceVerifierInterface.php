@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Validation;
+namespace Quantic\Validation;
 
 interface DatabasePresenceVerifierInterface extends PresenceVerifierInterface
 {
