@@ -1,20 +1,18 @@
 {
-    "name": "illuminate/validation",
-    "description": "The Illuminate Validation package.",
+    "name": "quantic/validation",
+    "description": "The Quantic Validation package.",
     "license": "MIT",
-    "homepage": "https://laravel.com",
-    "support": {
-        "issues": "https://github.com/laravel/framework/issues",
-        "source": "https://github.com/laravel/framework"
-    },
+    "homepage": "https://github.com/Quantical-Solutions/package-quantic-validator",
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
+          "name": "Frédéric Geffray",
+          "email": "in-touch-fg@quanticalsolutions.com",
+          "homepage": "https://quanticalsolutions.com",
+          "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.3",
+        "php": "^7.4",
         "ext-json": "*",
         "egulias/email-validator": "^2.1.10",
         "illuminate/collections": "^9.0",
@@ -28,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Illuminate\\Validation\\": ""
+            "Quantic\\Validation\\": ""
         }
     },
     "extra": {
