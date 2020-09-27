@@ -15,9 +15,8 @@
         "php": "^7.4",
         "ext-json": "*",
         "egulias/email-validator": "^2.1.10",
-        "illuminate/collections": "^9.0",
-        "illuminate/macroable": "^9.0",
-        "illuminate/translation": "^9.0",
+        "illuminate/collections": "^8.0",
+        "illuminate/translation": "^7.28.3",
         "symfony/http-foundation": "^5.1",
         "symfony/mime": "^5.1"
     },
