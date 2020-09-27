@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": "^7.4",
-        "ext-json": "*"
+        "ext-json": "*",
+        "quantic/igniter": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -24,9 +25,6 @@
         "branch-alias": {
             "dev-master": "9.x-dev"
         }
-    },
-    "suggest": {
-        "illuminate/database": "Required to use the database presence verifier (^9.0)."
     },
     "config": {
         "sort-packages": true
