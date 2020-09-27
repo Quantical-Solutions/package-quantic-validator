@@ -262,13 +262,15 @@ class Validator implements ValidatorContract
      * @param  array  $customAttributes
      * @return void
      */
-    public function __construct(Translator $translator, array $data, array $rules,
+    public function __construct(array $data, array $rules,
                                 array $messages = [], array $customAttributes = [])
+    /*public function __construct(Translator $translator, array $data, array $rules,
+                                array $messages = [], array $customAttributes = [])*/
     {
         $this->dotPlaceholder = Str::random();
 
         $this->initialRules = $rules;
-        $this->translator = $translator;
+        //$this->translator = $translator;
         $this->customMessages = $messages;
         $this->data = $this->parseData($data);
         $this->customAttributes = $customAttributes;
